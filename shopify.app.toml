@@ -1,0 +1,23 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "18812d924f1e3af8bb576a6f805ed860"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+name = "borosil-volume-discount-mrp"
+handle = "borosil-volume-discount-mrp"
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "arshiyas-development-store.myshopify.com"
